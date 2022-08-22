@@ -1,0 +1,115 @@
+div > h1 {
+  color: red;
+}
+
+.conteiner {
+  padding: 0;
+  margin: 5px;
+  border: white 1px solid;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#encabezado,
+#pie {
+  padding: 15px;
+  margin: 5px;
+  border: white 1px solid;
+  width: 98%;
+  height: 100px;
+}
+
+#invisible {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px;
+  margin: opx;
+  border: none;
+  width: 98%;
+  height: auto;
+}
+div > p {
+  font-family: arial;
+}
+div {
+  padding: 15px;
+  margin: 5px;
+  border: white 1px solid;
+  width: 30%;
+  height: 350px;
+}
+
+#izqInferior,
+#Centro,
+#derInferior {
+  width: 30%;
+  height: 250px;
+  margin-block-end: 5px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.fondo {
+  background-color: rgb(135, 197, 135);
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+h3 ~ a {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+#boton {
+  background-color: rgb(6, 73, 95);
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  font-size: 20pt;
+  justify-content: center;
+}
+#boton:hover {
+  color: white;
+  border-color: white;
+  background-color: red;
+}
+#boton:active {
+  background-color: blue !important;
+}
+
+p.destacado {
+  color: yellow;
+  font-family: arial;
+  font-style: italic;
+}
+
+p .destacado {
+  color: orangered;
+  font-style: italic;
+}
+
+#der > img {
+  align-content: center;
+}
+
+#invisible > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div > img {
+  justify-content: center;
+}
