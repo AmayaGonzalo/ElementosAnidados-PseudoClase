@@ -26,7 +26,7 @@ div > h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0px;
-  margin: opx;
+  margin: 0px;
   border: none;
   width: 98%;
   height: auto;
@@ -42,9 +42,9 @@ div {
   height: 350px;
 }
 
-#izqInferior,
-#Centro,
-#derInferior {
+#izq-inferior,
+#centro,
+#der-inferior {
   width: 30%;
   height: 250px;
   margin-block-end: 5px;
